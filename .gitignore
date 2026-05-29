@@ -1,4 +1,24 @@
 *-logs*
-*__pycache__/
 *.ipynb_checkpoints/
+__pycache__
 .idea
+
+# lab11
+Lab11/utk_face/
+Lab11/runs/*
+Lab11/results/*
+Lab11/models/*
+
+# Lab12 PASCAL VOC dataset (keep only yolov8.ipynb)
+Lab12/PASCAL VOC 2007.zip
+Lab12/PASCAL_VOC/
+Lab12/VOCtest_06-Nov-2007/
+Lab12/VOCtrainval_06-Nov-2007/
+
+# AI agent / assistant folders
+.codex/
+.claude/
+.cursor/
+.aider*
+.windsurf/
+.github/
