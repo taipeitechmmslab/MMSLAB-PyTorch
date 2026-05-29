@@ -2,23 +2,12 @@
 
 <img src="temp" width="50%" height="50%"/>
 
-# PyTorch 
-##  安裝
-
-- Requirements
-    - Jupyter NoteBook
-    - PyTorch 
-    - Numpy
-    - Pandas 
-    - Matplotlib
-    - OpenCV
-
 ## 作者
 黃士嘉
 
 　　【經歷】
 
-　　◎國立臺北科技大學電子工程系 教授
+　　◎國立臺北科技大學電子工程系 特聘教授
 
 　　◎加拿大安大略理工大學 國際客座教授
 
@@ -41,13 +30,15 @@
 　　◎國立臺北科技大學，Dr.Shechtman年輕學者獎
 
 
-林邑撰
+趙大衛
 
-　　◎神基科技 AI工程師
+　　◎VIVO 工程師
 
-　　◎國立臺北科技大學電子工程系碩士
+　　◎國立台灣大學電機工程學系博士
 
+陳亮甫
 
+    ◎國立臺北科技大學電子工程系碩士
 
 ## 購買連結
 
