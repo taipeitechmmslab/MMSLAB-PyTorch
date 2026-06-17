@@ -60,7 +60,7 @@ class OxfordPetSegmentationDataset(Dataset):
         return len(self.dataset)
 
     def __getitem__(self, idx):
-        image, (class_id, species, trimap) = self.dataset[idx]
+        image, (_, _, trimap) = self.dataset[idx]
         image = image.convert('RGB')
         trimap = trimap.convert('L')
 
@@ -76,11 +76,7 @@ class OxfordPetSegmentationDataset(Dataset):
         trimap[trimap == 0] = 2
         trimap = torch.from_numpy(trimap - 1).to(torch.long)
 
-        # 保留 class/species/breed 欄位，讓 batch 結構相容舊版資料集
-        class_id = torch.tensor(class_id, dtype=torch.long)
-        species = torch.tensor(species, dtype=torch.long)
-        breed_id = class_id.clone()
-        return image, trimap, class_id, species, breed_id
+        return image, trimap
 
     def denorm(self, t):
         mean = torch.tensor(self.norm_mean).unsqueeze(1).unsqueeze(2).to(t.device)
@@ -123,7 +119,7 @@ if __name__ == '__main__':
     train_dataset = OxfordPetSegmentationDataset(dataset_path, 'trainval', train_transform, train_transform_color)
     train_loader = DataLoader(train_dataset, batch_size=25, shuffle=True)
 
-    for batch_img, batch_trimap, batch_class, batch_sp, batch_breed in train_loader:
+    for batch_img, batch_trimap in train_loader:
         batch_trimap = batch_trimap.unsqueeze(1)
         debug_img = torchvision.utils.make_grid(batch_img[:25])
         debug_mask = torchvision.utils.make_grid(batch_trimap[:25])

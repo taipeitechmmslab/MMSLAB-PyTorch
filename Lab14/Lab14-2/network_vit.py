@@ -158,10 +158,6 @@ class SegMobileUNetTransformer(nn.Module):
         return self.decoder[-1](x)
 
 
-# 保留舊名稱，避免 notebook 或舊實驗程式仍 import SegViT 時中斷
-SegViT = SegMobileUNetTransformer
-
-
 if __name__ == '__main__':
     from torchinfo import summary
 
