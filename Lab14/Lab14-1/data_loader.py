@@ -51,7 +51,7 @@ class DatasetProcessor(object):
 
     def load_ag_news(self):
         try:
-            dataset = load_dataset('ag_news')
+            dataset = load_dataset('fancyzhx/ag_news')
         except ImportError as exc:
             raise ImportError("請先安裝 Hugging Face datasets：pip install datasets") from exc
 
