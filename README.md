@@ -55,6 +55,6 @@
 
 ## 購買連結
 
-- [天瓏書局]()
-- [博客來]()
+- [天瓏書局](https://www.books.com.tw/products/0011061546?loc=M_0005_001&srsltid=AfmBOopTPCib1FnHy4wxFVadjisGg4Pm21KcEJ1sdUoF6CPu28WodIA4)
+
 
