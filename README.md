@@ -55,6 +55,6 @@
 
 ## 購買連結
 
-- [天瓏書局](https://www.books.com.tw/products/0011061546?loc=M_0005_001&srsltid=AfmBOopTPCib1FnHy4wxFVadjisGg4Pm21KcEJ1sdUoF6CPu28WodIA4)
+- [博客來](https://www.books.com.tw/products/0011061546?loc=M_0005_001&srsltid=AfmBOopTPCib1FnHy4wxFVadjisGg4Pm21KcEJ1sdUoF6CPu28WodIA4)
 
-
+- [天瓏書局](https://www.tenlong.com.tw/products/9786264145954?list_name=p-r-zh_tw)
